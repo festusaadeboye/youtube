@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div>
+        
+            <p id="displayArea"> </p>
+        
+        <button id="fig" onclick="display(0)">0</button>
+        <button id="fig" onclick="display(1)">1</button>
+        <button id="fig" onclick="display(2)">2</button>
+        <button id="fig" onclick="display(3)">3</button>
+        <button id="fig" onclick="display(4)">4</button>
+        <button id="fig" onclick="display(5)">5</button>
+        <button id="fig" onclick="display(6)">6</button>
+        <button id="fig" onclick="display(7)">7</button>
+        <button id="fig" onclick="display(8)">8</button>
+        <button id="fig" onclick="display(9)">9</button>
+        <br>
+
+        <div name="calculate" id="operator">
+            <button id="sign" onclick="display('+')">+</button>
+        <button id="sign" onclick="display('-')">-</button>
+        <button id="sign" onclick="display('/')">/</button>
+        <button id="sign" onclick="display('*')">*</button>
+       <button id="equal" onclick="displayEval('=')">=</button>
+       <div>
+        <p id="displayArea"> </p>
+       </div>
+        </div>
+        
+    </div>
+
+
+
+
+    <script>
+
+    function display(text){
+        let value = fig 
+        document.getElementById("displayArea").innerHTML += text
+         
+    }
+   function displayEval(){
+    let operator = equal
+    fig
+        document.getElementById("equal") .innerHTML += text 
+   }
+
+    </script>
+   
+</body>
+</html>
